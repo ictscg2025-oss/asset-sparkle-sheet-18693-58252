@@ -17,7 +17,7 @@ const Dashboard = () => {
     inRepairAssets,
   };
   
-  const categories = ['Laptop', 'Printer', 'Monitor', 'PC Desktop', 'Server', 'Network Equipment', 'Lainnya'];
+  const categories = ['Laptop', 'Printer', 'Monitor', 'PC Desktop', 'Server', 'Network Equipment', 'Radio RIG', 'Radio HT', 'Lainnya'];
   const categoryData = categories.map(cat => ({
     category: cat,
     count: assets.filter(a => a.kategori === cat).length,

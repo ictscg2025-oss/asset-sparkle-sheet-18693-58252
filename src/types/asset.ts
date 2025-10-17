@@ -8,7 +8,7 @@ export interface Asset {
   departemen: string;
   tanggalBarangMasuk: string;
   status: 'Aktif' | 'Rusak' | 'Dalam Perbaikan' | 'Dihapus';
-  kategori: 'Laptop' | 'Printer' | 'Monitor' | 'PC Desktop' | 'Server' | 'Network Equipment' | 'Lainnya';
+  kategori: 'Laptop' | 'Printer' | 'Monitor' | 'PC Desktop' | 'Server' | 'Network Equipment' | 'Radio RIG' | 'Radio HT' | 'Lainnya';
   catatan?: string;
   urlGambar?: string;
   lokasi?: string;

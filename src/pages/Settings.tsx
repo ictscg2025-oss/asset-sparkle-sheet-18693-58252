@@ -136,17 +136,6 @@ const Settings = () => {
               Import Data
             </Button>
           </div>
-          <Separator />
-          <div className="bg-destructive/10 border border-destructive/20 rounded-lg p-4">
-            <h4 className="font-semibold text-destructive mb-2">Danger Zone</h4>
-            <p className="text-sm text-muted-foreground mb-4">
-              Menghapus semua data akan menghilangkan seluruh aset dan riwayat. Tindakan ini tidak dapat dibatalkan.
-            </p>
-            <Button onClick={handleClearData} variant="destructive">
-              <Trash2 className="mr-2 h-4 w-4" />
-              Hapus Semua Data
-            </Button>
-          </div>
         </CardContent>
       </Card>
 

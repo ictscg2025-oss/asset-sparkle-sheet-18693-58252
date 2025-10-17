@@ -205,6 +205,8 @@ const AssetForm = () => {
                     <SelectItem value="PC Desktop">PC Desktop</SelectItem>
                     <SelectItem value="Server">Server</SelectItem>
                     <SelectItem value="Network Equipment">Network Equipment</SelectItem>
+                    <SelectItem value="Radio RIG">Radio RIG</SelectItem>
+                    <SelectItem value="Radio HT">Radio HT</SelectItem>
                     <SelectItem value="Lainnya">Lainnya</SelectItem>
                   </SelectContent>
                 </Select>

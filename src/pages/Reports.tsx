@@ -6,7 +6,7 @@ import { TrendingUp, DollarSign, Package, AlertTriangle } from 'lucide-react';
 const Reports = () => {
   const { assets } = useAssets();
 
-  const categoryData = ['Laptop', 'Printer', 'Monitor', 'PC Desktop', 'Server', 'Network Equipment', 'Lainnya'].map(cat => ({
+  const categoryData = ['Laptop', 'Printer', 'Monitor', 'PC Desktop', 'Server', 'Network Equipment', 'Radio RIG', 'Radio HT', 'Lainnya'].map(cat => ({
     name: cat,
     count: assets.filter(a => a.kategori === cat).length,
   }));
